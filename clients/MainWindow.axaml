@@ -1,0 +1,396 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="clients.MainWindow"
+        Title="clients">
+	<ScrollViewer>
+		<Grid
+			Grid.RowDefinitions="200, *"
+			Grid.ColumnDefinitions="200, 300, *">
+
+			<StackPanel
+				Grid.Row="0"
+				Grid.Column="0">
+				<Button
+					Name="addClientBtn"
+					Content="Добавить клиента"
+					Click="AddClient_OnClick">
+				</Button>
+				<CheckBox
+					Margin="0, 10, 0, 0"
+					IsChecked="False"
+					Checked="Birthdate_Checked"
+					Name="birthdayCurrMonth">
+
+					День рождения в текущем месяце
+				</CheckBox>
+				<TextBlock
+					Margin="20, 40, 0, 0"
+					TextWrapping="Wrap"
+					Text="Укажите количество клиентов на странице:">
+				</TextBlock>
+				<StackPanel
+					Margin="20, 0, 0, 0"
+					Orientation="Horizontal">
+
+					<RadioButton
+						Click="tenPages_Click"
+						Name="tenPages"
+					IsChecked="False"
+					GroupName="Pages"
+					Content="10">
+					</RadioButton>
+					<RadioButton
+						Click="fiftyPages_Click"
+						Name="fiftyPages"
+						IsChecked="False"
+						Margin="20, 0, 0, 0"
+					GroupName="Pages"
+					Content="50">
+					</RadioButton>
+					<RadioButton
+						Click="twohundredPages_Click"
+						Name="twohundredPages"
+						IsChecked="False"
+						Margin="20, 0, 0, 0"
+					GroupName="Pages"
+					Content="200">
+					</RadioButton>
+					<RadioButton
+						Click="allPages_Click"
+						Name="allPages"
+						IsChecked="False"
+						Margin="20, 0, 0, 0"
+					GroupName="Pages"
+					Content="все">
+					</RadioButton>
+				</StackPanel>
+			</StackPanel>
+			<StackPanel
+				HorizontalAlignment="Center"
+				Grid.Row="0"
+				Orientation="Vertical"
+				Grid.Column="1">
+				<TextBlock
+				Text="Фильтрация по полу">
+				</TextBlock>
+				<ComboBox
+					Name="filterCmb"
+					Width="120"
+					SelectionChanged="GenderCmb_SelectionChanged"
+					MaxDropDownHeight="100">
+					<ComboBoxItem>мужской</ComboBoxItem>
+					<ComboBoxItem>женский</ComboBoxItem>
+					<ComboBoxItem>все</ComboBoxItem>
+				</ComboBox>
+				<TextBlock
+					Margin="0, 10, 0, 0"
+					Text="Сортировка">
+				</TextBlock>
+				<ComboBox
+					SelectionChanged="Sorts_SelectionChanged"
+					Width="120"
+					Name="sortCmb">
+					<ComboBoxItem>
+						Фамилии по алфавиту
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Даты последнего посещения от новым к старым
+					</ComboBoxItem>
+					<ComboBoxItem>
+						Количество посещений от большего к меньшему
+					</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<StackPanel
+				HorizontalAlignment="Center"
+				Orientation="Vertical"
+				Grid.Row="0"
+				Grid.Column="2">
+				<TextBox
+					Name="searchString"
+					KeyUp="search_KeyUp"
+					Width="270"
+					Height="40"
+					Watermark="Введите значения для поиска">
+				</TextBox>
+			</StackPanel>
+			<StackPanel
+				Grid.Row="1"
+				Grid.Column="0"
+				Grid.ColumnSpan="3">
+
+				<ListBox
+					Height="400"
+					Name="clientsListBox"
+					 Background="AliceBlue">
+
+					<ListBox.ItemTemplate>
+
+						<DataTemplate
+							x:CompileBindings="False">
+							<ScrollViewer>
+								<Grid
+									RowDefinitions="*,*"
+									ColumnDefinitions="*, 4*, *">
+									<StackPanel
+										Grid.Row="0"
+										Grid.RowSpan="2"
+										Grid.Column="0">
+										<Image
+											Width="100"
+											Source="{Binding Path=PhotoPath}"
+											Name="clientImg">
+										</Image>
+									</StackPanel>
+									<StackPanel
+										Orientation="Vertical"
+										Grid.Row="0"
+										Grid.RowSpan="2"
+										Grid.Column="1">
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Id ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=IdClient}"
+												Name="idTextBlock">
+											</TextBlock>
+											<TextBlock
+												Text="Имя ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=NameClient}"
+												Name="nameTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Отчество ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=OtchestvoCl}"
+												Name="otchestvoTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Фамилия ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=SurnameCl}"
+												Name="surnameTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Пол ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=Gender}"
+												Name="genderTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Почта ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=Mail}"
+												Name="mailTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Телефон ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=Phone}"
+												Name="phoneTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="День рождения ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=Birthday}"
+												Name="birthdayTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Дата регистрации ">
+											</TextBlock>
+											<TextBlock
+												Text="{Binding Path=DateReg}"
+												Name="dateRegTextBlock">
+											</TextBlock>
+										</StackPanel>
+
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Дата последнего посещения ">
+											</TextBlock>
+											<TextBlock
+											Text="{Binding Path=LastVisit}"
+											Name="dateLastTextBlock">
+											</TextBlock>
+										</StackPanel>
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Количество посещений ">
+											</TextBlock>
+											<TextBlock
+											Text="{Binding Path=NumbOfVisits}"
+											Name="numVisitTextBlock">
+											</TextBlock>
+										</StackPanel>
+										<StackPanel
+											Orientation="Horizontal">
+											<TextBlock
+												Text="Тэги ">
+											</TextBlock>
+											<ListBox
+												Name="statusListB"
+												ItemsSource="{Binding IdTags}"
+												Height="40"
+												HorizontalAlignment="Center"
+												VerticalAlignment="Center"
+												Width="120">
+												<ListBox.ItemTemplate>
+													<DataTemplate
+													x:CompileBindings="False">
+														<StackPanel
+															HorizontalAlignment="Center"
+															VerticalAlignment="Center"
+														Orientation="Horizontal">
+															<Border
+																HorizontalAlignment="Center"
+															VerticalAlignment="Center"
+																Height="40"
+																Background="{Binding ColorTag}"
+																Width="110"
+																CornerRadius="15">
+																<TextBlock
+																	TextAlignment="Center"
+																	Height="20"
+																	Width="100"
+																	Text="{Binding NameTag}">
+																</TextBlock>
+															</Border>
+														</StackPanel>
+													</DataTemplate>
+												</ListBox.ItemTemplate>
+											</ListBox>
+										</StackPanel>
+									</StackPanel>
+									<StackPanel
+										Grid.Column="2"
+										Grid.Row="0"
+										VerticalAlignment="Bottom">
+										<Button
+											Tag="{Binding IdClient}"
+											Content="Просмотреть посещения"
+											Click="showVisits_Click">
+										</Button>
+										<Button
+											Tag="{Binding IdClient}"
+											Content="Редактировать"
+											Name="editBtn"
+											Click="EditClientBtn_OnClick">
+										</Button>
+									</StackPanel>
+									<StackPanel
+										Grid.Column="2"
+										Grid.Row="1"
+										VerticalAlignment="Top">
+										<Button
+											Tag="{Binding IdClient}"
+											Content="Удалить"
+											Name="deleteBtn"
+											Click="DeleteClientBtn_OnClick">
+										</Button>
+									</StackPanel>
+
+
+								</Grid>
+							</ScrollViewer>
+						</DataTemplate>
+
+					</ListBox.ItemTemplate>
+				</ListBox>
+				<StackPanel
+					Orientation="Vertical">
+					<StackPanel
+						Height="30"
+						Width="200"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Left"
+						Orientation="Horizontal">
+						<TextBlock
+						Name="currpageNumber">
+						</TextBlock>
+						<TextBlock
+							Text=" / ">
+						</TextBlock>
+						<TextBlock
+							Name="allpageNumber">
+						</TextBlock>
+					</StackPanel>
+					<StackPanel
+						Height="30"
+						Width="200"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Left"
+						Orientation="Horizontal">
+						<TextBlock
+							Text="Записей для просмотра">
+						</TextBlock>
+						<TextBlock
+							Name="currentoutput">
+						</TextBlock>
+						<TextBlock
+							Text=" из ">
+						</TextBlock>
+						<TextBlock
+							Name="alloutput">
+						</TextBlock>
+					</StackPanel>
+				</StackPanel>
+				<StackPanel
+					Orientation="Horizontal">
+					<Button
+						Name="backBtn"
+						Click="PrevPage_OnClick"
+						Content="На предыдущую">
+					</Button>
+					<Button
+						Name="nextBtn"
+						Click="NextPage_OnClick"
+						Content="На следующую">
+					</Button>
+				</StackPanel>
+			</StackPanel>
+		</Grid>
+	</ScrollViewer>
+</Window>

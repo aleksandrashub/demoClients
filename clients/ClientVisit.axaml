@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="clients.ClientVisit"
+        Title="ClientVisit">
+	<Grid
+		ColumnDefinitions="*,*">
+		<StackPanel
+			Grid.Column="0">
+			<Button
+				Content="Вернуться к списку клиентов"
+				Click="nazad_Click">
+			</Button>
+			<ListBox
+				Name="visitsList">
+				<!--<ListBox.ItemTemplate>
+					<DataTemplates
+						x:CompiledBindings="False">
+						<ListBoxItem>
+						</ListBoxItem>
+					</DataTemplates>
+				</ListBox.ItemTemplate>-->
+			</ListBox>
+			
+		</StackPanel>
+
+	</Grid>
+</Window>

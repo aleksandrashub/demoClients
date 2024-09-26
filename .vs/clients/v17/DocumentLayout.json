@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\clients\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\editclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\editclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\models\\visit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\context\\myprojcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\context\\myprojcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\addclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\clientvisit.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\clientvisit.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\clientvisit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\clientvisit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\addclient.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\addclient.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\editclient.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\editclient.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|c:\\users\\hp\\source\\repos\\clients\\clients\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11C3026F-3E60-4AC7-84A3-F17D89EC06E8}|clients\\clients.csproj|solutionrelative:clients\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Visit.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Visit.cs",
+              "RelativeDocumentMoniker": "clients\\Models\\Visit.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Visit.cs",
+              "RelativeToolTip": "clients\\Models\\Visit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:14:22.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyprojContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Context\\MyprojContext.cs",
+              "RelativeDocumentMoniker": "clients\\Context\\MyprojContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Context\\MyprojContext.cs",
+              "RelativeToolTip": "clients\\Context\\MyprojContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:56:45.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "clients.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\clients.csproj",
+              "RelativeDocumentMoniker": "clients\\clients.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\clients.csproj",
+              "RelativeToolTip": "clients\\clients.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T16:37:32.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "clients\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\MainWindow.axaml.cs",
+              "RelativeToolTip": "clients\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:36:26.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddClient.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\AddClient.axaml.cs",
+              "RelativeDocumentMoniker": "clients\\AddClient.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\AddClient.axaml.cs",
+              "RelativeToolTip": "clients\\AddClient.axaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAJsAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:01:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "clients\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\MainWindow.axaml",
+              "RelativeToolTip": "clients\\MainWindow.axaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwP0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T16:36:27.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "clients\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Client.cs",
+              "RelativeToolTip": "clients\\Models\\Client.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:26:52.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditClient.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\EditClient.axaml.cs",
+              "RelativeDocumentMoniker": "clients\\EditClient.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\EditClient.axaml.cs",
+              "RelativeToolTip": "clients\\EditClient.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:59:42.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Class1.cs",
+              "RelativeDocumentMoniker": "clients\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Class1.cs",
+              "RelativeToolTip": "clients\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:55:49.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientVisit.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\ClientVisit.axaml.cs",
+              "RelativeDocumentMoniker": "clients\\ClientVisit.axaml.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\ClientVisit.axaml.cs",
+              "RelativeToolTip": "clients\\ClientVisit.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:23:47.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientVisit.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\ClientVisit.axaml",
+              "RelativeDocumentMoniker": "clients\\ClientVisit.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\ClientVisit.axaml",
+              "RelativeToolTip": "clients\\ClientVisit.axaml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T20:23:47.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddClient.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\AddClient.axaml",
+              "RelativeDocumentMoniker": "clients\\AddClient.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\AddClient.axaml",
+              "RelativeToolTip": "clients\\AddClient.axaml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAI0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T17:01:15.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditClient.axaml",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\EditClient.axaml",
+              "RelativeDocumentMoniker": "clients\\EditClient.axaml",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\EditClient.axaml",
+              "RelativeToolTip": "clients\\EditClient.axaml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T16:59:43.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "clients\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\clients\\clients\\Models\\Tag.cs",
+              "RelativeToolTip": "clients\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:55:26.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
